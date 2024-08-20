@@ -74,4 +74,5 @@ model Todo {
 
   createdAt DateTime @default(now())
   updateAt  DateTime @updatedAt
+  doneAt    DateTime?
 }
